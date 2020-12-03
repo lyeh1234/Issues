@@ -1,0 +1,9 @@
+Issue 2: New User Page's Recipe Book leads to server error
+
+Once a new account is created the Create Account page leads the user to the webapp, in which they can add ingredients, recipes, etc.
+However, the button that shows the recipe book has a server error. The new user has no recipe book, it should at least show a blank recipe book.
+
+Steps to Recreate Issue:
+1) Create a new account with passing requirements for username, password, and email
+2) Click submit to create the account, leading the user to the page to add ingredients/recipes.
+3) Click on the "My Recipe Book" to get to the server error.

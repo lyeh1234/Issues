@@ -1,0 +1,10 @@
+Issue 3: Email requirements passes without adding a period "."
+
+When the user enters credentials to create a new account, they can create a new account even though the email address is missing a period "."
+In the passing requirements fine print, it says the email address should have an "@" and a "." to successfully register.
+
+Steps to Recreate Issue:
+1) Go to Create Account
+2) Enter passing credentials for username, password
+3) For email, enter an email without a period (i.e. yehl@oregonstateedu)
+4) Click Submit and it should show a green flash alert saying the account was created

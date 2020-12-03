@@ -1,0 +1,10 @@
+Issue 1: Pre-existing User Page Freezes for a Certain Sequence
+
+When the user wants to create a new account and they enter a pre-existing user's username as their new account username, it shows the pre-existing username flash alert. 
+However, once the user types all of the credentials to create a new account the second time, this time passing all requirements, the Create Account page gets stuck in loading.
+
+Steps to Recreate Issue:
+1) type pre-existing username in ("yehl" is a pre-existing username)
+2) enter the password and email with passing requirements
+3) submit and it will show the pre-existing user flash alert
+4) now enter a unique username, password, and email with passing requirements
